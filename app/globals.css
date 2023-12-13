@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-image:linear-gradient(45deg,#061E4D,#002D62);
+}
+.radial {
+  background-image:radial-gradient(#001E44,#000913 90%)
+}
+.yellowradial {
+  background-image:radial-gradient(#ffc800,transparent 50%)
+}
+.linksGroup {
+  padding-right:40px;
+  transition-duration:.45s;
+  font-weight:300;
+  cursor:pointer
+}
+.linksGroup:hover {
+  transform:scale(1.1);
+}
+.timingfunction {
+  transition-timing-function: cubic-bezier(.66,.01,.3,1);
+}
+.myshadow {
+  box-shadow:17px 20px 45px 0 rgba(0, 0, 0, 0.363);
+}
+.years,.another {
+  padding-right:200px;
+  color:white;
+  font-size:45px;
+  font-weight:100;
+  opacity:90%;
+}
+.another {
+  padding-right:0;
+}
+.circles {
+  width:54px;
+  height:54px;
+  background-color:rgb(255, 255, 255);
+  border: 7px white solid;
+  border-radius: 50%;
+  position:absolute;
+  bottom: 82px;
+  margin-left: 20px;
+  opacity:100%;
+  transition-duration:.3s;
+}
+.loading {
+  padding:30px;
+  font-size:27px;
+  color:white;
+}
+.whiteshadow:hover {
+  box-shadow:0 15px 40px 0 rgba(255, 255, 255, 0.164);
+}
+.planetspin1 {
+  animation-name:spin1;
+  animation-duration:13s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 93px 0;
+}
+@keyframes spin1 {
+  to {
+    transform:rotate(360deg)
+  }
+}
+.planetspin2 {
+  animation-name:spin2;
+  animation-duration:19s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 127px 0;
+}
+@keyframes spin2 {
+  to {
+    transform:rotate(-360deg)
+  }
+}
+.planetspin3 {
+  animation-name:spin3;
+  animation-duration:20s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 161px 0;
+}
+@keyframes spin3 {
+  to {
+    transform:rotate(360deg)
+  }
+}
+.planetspin4 {
+  animation-name:spin4;
+  animation-duration:21s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 195px 0;
+}
+@keyframes spin4 {
+  to {
+    transform:rotate(-360deg)
+  }
+}
+.planetspin5 {
+  animation-name:spin5;
+  animation-duration:120s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 297px 0;
+}
+@keyframes spin5 {
+  to {
+    transform:rotate(360deg)
+  }
+}
+.planetspin6 {
+  animation-name:spin6;
+  animation-duration:140s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 331px 0;
+}
+@keyframes spin6 {
+  to {
+    transform:rotate(-360deg)
+  }
+}
+.planetspin7 {
+  animation-name:spin7;
+  animation-duration:145s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 365px 0;
+}
+@keyframes spin7 {
+  to {
+    transform:rotate(360deg)
+  }
+}
+.planetspin8 {
+  animation-name:spin8;
+  animation-duration:150s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transform-origin: 379px 0;
+}
+@keyframes spin8 {
+  to {
+    transform:rotate(-360deg)
+  }
+}

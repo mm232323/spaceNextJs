@@ -1,0 +1,82 @@
+[
+  {
+    "name":"mercury",
+    "solarName":"copernican system",
+    "size":"3.032 miles",
+    "temperature":"800df",
+    "ranking":"1",
+    "desnity":"5.427 g/cm³",
+    "id":1,
+    "photo":"/mercury.png"
+  },
+  {
+    "name":"venus",
+    "solarName":"copernican system",
+    "size":"7,521 miles",
+    "temperature":"867df",
+    "ranking":"2",
+    "desnity":"5.24 g/cm³",
+    "id":2,
+    "photo":"/venus.png"
+  },
+  {
+    "name":"earth",
+    "solarName":"copernican system",
+    "size":"510.1 million km²",
+    "temperature":"59df",
+    "ranking":"3",
+    "desnity":"5.51 g/cm³",
+    "id":3,
+    "photo":"/earth2.png"
+  },
+  {
+    "name":"mars",
+    "solarName":"copernican system",
+    "size":"4,212 miles",
+    "temperature":"70df",
+    "ranking":"4",
+    "desnity":"3.9 g/cm³",
+    "id":4,
+    "photo":"/mars.png"
+  },
+  {
+    "name":"jupiter",
+    "solarName":"copernican system",
+    "size":"61.42 billion km²",
+    "temperature":"-234df",
+    "ranking":"5",
+    "desnity":"5.427 g/cm³",
+    "id":5,
+    "photo":"/jupitery.png"
+  },
+  {
+    "name":"saturn",
+    "solarName":"copernican system",
+    "size":"72,367 miles",
+    "temperature":"-234df",
+    "ranking":"6",
+    "desnity":"0.687 g/cm³",
+    "id":6,
+    "photo":"/saturn.png"
+  },
+  {
+    "name":"uranus",
+    "solarName":"copernican system",
+    "size":"31,516 miles",
+    "temperature":"-319df",
+    "ranking":"7",
+    "desnity":"1.27 g/cm³",
+    "id":7,
+    "photo":"/uranus.png"
+  },
+  {
+    "name":"neptune",
+    "solarName":"copernican system",
+    "size":"30,775 miles",
+    "temperature":" -201df",
+    "ranking":"8",
+    "desnity":"1.638 g/cm³",
+    "id":8,
+    "photo":"/neptune.png"
+  }
+]
