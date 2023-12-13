@@ -13,7 +13,7 @@ export default function planetsPage() {
       <Header></Header>
       <h1 className='text-white uppercase text-[56px] font-bold absolute left-[140px] top-[180px] max-lg:text-[34px] max-lg:left-[35px]'>planets discovery</h1>
       <p className='absolute text-white opacity-[67%] w-fit  max-lg:top-[240px] max-lg:text-[11.5px] font-thin max-lg:left-[40px] left-[144px] top-[287px] text-[20px] leading-[33px] max-lg:leading-[19px]'>
-        On this page, we'll discover some of<br></br>
+        On this page, well discover some of<br></br>
         our hard work
         About the field<br></br>
         of the planet in our galaxy
