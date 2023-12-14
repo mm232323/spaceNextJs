@@ -1,0 +1,137 @@
+[
+  {
+    "name":"sun",
+    "id":1,
+    "size":"864,938 miles",
+    "temp":"10,340 df",
+    "type":"Yellow dwarf",
+    "age":"4.603 billion",
+    "photo":"/sun.jpg"
+  },
+  {
+    "name":"alberio",
+    "id":2,
+    "size":"2.59 R",
+    "temp":"7,500 df",
+    "type":"binary",
+    "age":"100 Myr",
+    "photo":"/albireo.jpg"
+  },
+  {
+    "name":"alnilam",
+    "id":3,
+    "size":"22.020 million miles",
+    "temp":"50,000 df",
+    "type":"B0Ia",
+    "age":"5.7 Myr",
+    "photo":"/alnilam.jpg"
+  },
+  {
+    "name":"altair",
+    "id":4,
+    "size":"1.524 million miles",
+    "temp":"13,400 df",
+    "type":" A-type main-sequence",
+    "age":"100 million",
+    "photo":"/altair.jpg"
+  },
+  {
+    "name":"antares",
+    "id":5,
+    "size":"1.114 billion kilometers",
+    "temp":"6,100 df",
+    "type":"M1. 5Iab-Ib",
+    "age":"4.603 billion",
+    "photo":"/antares.jpg"
+  },
+  {
+    "name":"betelgeuse",
+    "id":6,
+    "size":"767 million miles",
+    "temp":"6,000 df",
+    "type":"red supergiant",
+    "age":"10 million",
+    "photo":"/betelgeuse.jpg"
+  },
+  {
+    "name":"canopus",
+    "id":7,
+    "size":"6.919 million miles",
+    "temp":"13,340 df",
+    "type":"A9",
+    "age":"10 Million",
+    "photo":"/canopus.jpg"
+  },
+  {
+    "name":"Eta Canis Majoris",
+    "id":8,
+    "size":"432.470 million miles",
+    "temp":"26,540 df",
+    "type":"variable",
+    "age":"8.3 Myr",
+    "photo":"/etacanis.jpg"
+  },
+  {
+    "name":"Eta Ursae Majoris",
+    "id":9,
+    "size":"3.4 R",
+    "temp":"29,820 df",
+    "type":"B-type",
+    "age":"10 million",
+    "photo":"/etaursae.jpg"
+  },
+  {
+    "name":"formalhaut",
+    "id":10,
+    "size":"1.7 million miles",
+    "temp":"8,320 df",
+    "type":"BY Draconis variable",
+    "age":"440 million",
+    "photo":"/formalhaut.jpg"
+  },
+  {
+    "name":"hamal",
+    "id":11,
+    "size":"14.9 R",
+    "temp":"7,604 df",
+    "type":"Alpha Arietis",
+    "age":"3.4 billion",
+    "photo":"/hamal.jpg"
+  },
+  {
+    "name":"pleiades",
+    "id":12,
+    "size":"8 R",
+    "temp":"44 df",
+    "type":"open star cluster",
+    "age":"100 million",
+    "photo":"/pleiades.jpg"
+  },
+  {
+    "name":"rigel",
+    "id":13,
+    "size":"100 million kilometers",
+    "temp":"21,000 df",
+    "type":"blue supergain",
+    "age":"8.005 billion",
+    "photo":"/rigel.png"
+  },
+  {
+    "name":"sirius",
+    "id":14,
+    "size":"1.5 million miles",
+    "temp":"18,000 df",
+    "type":"A0 & A1",
+    "age":"8 Myr",
+    "photo":"/sirius.jpg"
+  },
+  {
+    "name":"vega",
+    "id":15,
+    "size":"2.818 R",
+    "temp":"16,820 df",
+    "type":"A0V",
+    "age":"455 million",
+    "photo":"/vega.jpg"
+  }
+]
