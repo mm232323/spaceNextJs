@@ -13,7 +13,7 @@ export default function Header() {
       <Link href='./'>
       <Image id='logo' src={Logo} alt='' className='relative left-[243px] max-lg:left-[50%] max-lg:translate-x-[-50%] top-[20px]'></Image>
       </Link>
-      <div id='options' className='text-3xl max-lg:text-[15px] duration-[.45s] text-white spacecursor relative top-[-60px] max-lg:top-[-95px] max-lg:left-[40px] z-10 flex left-[520px] max-w-fit max-lg:opacity-0 max-lg:blur-lg'>
+      <div id='options' className='text-3xl max-lg:text-[15px] duration-[.45s] text-white spacecursor relative top-[-60px] max-lg:top-[-95px]  max-lg:left-[40px] z-10 flex left-[520px] max-w-fit max-lg:opacity-0 max-lg:blur-lg'>
         <Link href='./about'>
         <h1 className='linksGroup'>About</h1>
         </Link>

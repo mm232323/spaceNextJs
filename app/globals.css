@@ -14,7 +14,9 @@ body {
   padding-right:40px;
   transition-duration:.45s;
   font-weight:300;
-  cursor:pointer
+  cursor:pointer;
+  opacity:100%;
+  filter:blur(0);
 }
 .linksGroup:hover {
   transform:scale(1.1);
@@ -35,6 +37,25 @@ body {
 .another {
   padding-right:0;
 }
+.timingfunction {
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hoverer:hover {
+  .breaker {
+    opacity: 100%;
+    filter:blur(0)
+  }
+  .image {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .details {
+    opacity:100%;
+    filter:blur(0);
+    top:20px;
+    left:56%;
+  }
+}
 .circles {
   width:54px;
   height:54px;
@@ -46,6 +67,9 @@ body {
   margin-left: 20px;
   opacity:100%;
   transition-duration:.3s;
+}
+.floating {
+  overflow:scroll
 }
 .loading {
   padding:30px;

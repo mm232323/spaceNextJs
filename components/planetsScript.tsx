@@ -12,9 +12,16 @@ export default function PlanetsScript() {
               p.style.filter = 'blur(10px)'
             }
             d.onclick = () => {
-              d.style.opacity = '70%'
-              p.style.filter = 'blur(10px)'
+              if (Number(d.style.opacity) > 0) {
+                d.style.opacity = '0%'
+                p.style.filter = 'blur(0)'
+              }
+              else {
+                d.style.opacity = '70%'
+                p.style.filter = 'blur(10px)'
+              }
             }
+
             d.onmouseleave = () => {
               d.style.opacity = '0'
               p.style.filter = 'blur(0)'
@@ -28,7 +35,8 @@ export default function PlanetsScript() {
             image6 = document.getElementById("6")
             image7 = document.getElementById("7")
             image8 = document.getElementById("8")
-            image6.style.width = '400px'
+            image6.style.height = '180px'
+            image6.style.marginTop = '40px'
             details1 = document.getElementById("1details")
             details2 = document.getElementById("2details")
             details3 = document.getElementById("3details")
@@ -37,6 +45,7 @@ export default function PlanetsScript() {
             details6 = document.getElementById("6details")
             details7 = document.getElementById("7details")
             details8 = document.getElementById("8details")
+            details6.style.marginRight = '50px'
             images = [image1,image2,image3,image4,image5,image6,image7,image8]
             details = [details1,details2,details3,details4,details5,details6,details7,details8]
             for (let i = 0;i<images.length;i++) {
