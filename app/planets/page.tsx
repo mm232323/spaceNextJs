@@ -8,7 +8,7 @@ import playIcon from '../../public/playIcon.png'
 import Link from 'next/link'
 export default function planetsPage() {
   return (
-    <main className='h-[4500px]'>
+    <main className='h-[1800px]'>
       <Image src={mainImage} alt='' className='absolute left-0'></Image>
       <Header></Header>
       <h1 className='text-white uppercase text-[56px] font-bold absolute left-[140px] top-[180px] max-lg:text-[34px] max-lg:left-[35px]'>planets discovery</h1>
@@ -18,12 +18,12 @@ export default function planetsPage() {
         About the field<br></br>
         of the planet in our galaxy
       </p>
-      <section className='relative w-[100%] h-[2500px] top-[327px]'>
+      <section className='relative w-[100%] top-[327px] h-fit'>
       <h1 className='font-[500] text-white absolute max-lg:text-center left-[50%] uppercase translate-x-[-50%] text-[45px] max-lg:text-[30px] max-lg:top-[-90px] max-lg:font-normal top-[15px]'>copernican system</h1>
       <Link href='/planets/solar'>
       <Image src={playIcon} alt='' className='absolute right-[340px] top-[23px]'></Image>
       </Link>
-      <div className='relative flex flex-wrap justify-center max-w-fit top-[150px]'>
+      <div className='relative flex flex-wrap justify-center max-w-fit top-[150px] max-h-fit h-[200px]'>
       {
         data.filter(p=> p.solarName == 'copernican system').map(planet => {
           return (

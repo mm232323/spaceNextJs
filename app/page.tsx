@@ -16,7 +16,7 @@ export default function Home() {
         <Header></Header>
         <Image src={astronaut} alt='' className='absolute w-[526px] xl:block h-[526px] right-[200px] lg:block max-lg:hidden'></Image>
         <h1 className='text-white font-medium absolute text-[110px] left-[150px] top-[230px] max-lg:left-[50%] max-lg:translate-x-[-50%] max-lg:top-[178px] max-lg:text-[90px]'>SPACE</h1>
-        <p className='absolute top-[422px] left-[150px] text-white max-lg:top-[375px] font-light text-2xl max-lg:left-[50%] max-lg:translate-x-[-50%] max-lg:pr-10 max-lg:pl-10 tracking-wider max-lg:text-center'>
+        <p className='absolute top-[422px] left-[150px] text-white max-lg:top-[375px] font-light text-2xl max-md:text-xl max-lg:left-[50%] max-lg:translate-x-[-50%] max-lg:pr-4 max-lg:pl-4 max-md:pr-0 max-md:pl-0 tracking-wider max-lg:text-center'>
           We are discovering a large part<br></br>
           of outer space with a high<br></br>
           <span className='text-red-700 font-medium'>technologies </span>

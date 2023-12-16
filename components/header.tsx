@@ -15,16 +15,16 @@ export default function Header() {
       </Link>
       <div id='options' className='text-3xl max-lg:text-[15px] duration-[.45s] text-white spacecursor relative top-[-60px] max-lg:top-[-95px]  max-lg:left-[40px] z-10 flex left-[520px] max-w-fit max-lg:opacity-0 max-lg:blur-lg'>
         <Link href='./about'>
-        <h1 className='linksGroup'>About</h1>
+        <h1 className='linksGroup pr-[40px] max-md:pr-[15px]'>About</h1>
         </Link>
         <Link href='./planets'>
-        <h1 className='linksGroup'>Planets</h1>
+        <h1 className='linksGroup pr-[40px] max-md:pr-[15px]'>Planets</h1>
         </Link>
         <Link href='./stars'>
-        <h1 className='linksGroup'>Stars</h1>
+        <h1 className='linksGroup pr-[40px] max-md:pr-[15px]'>Stars</h1>
         </Link>
         <Link href='./contact'>
-        <h1 className='linksGroup pr-0'>Contact</h1>
+        <h1 className='linksGroup'>Contact</h1>
         </Link>
       </div>
       <Image id='choose' src={choose} alt='' className='absolute right-10 shadow-xl pointer top-[70px] hidden cursor-pointer max-lg:block'></Image>
