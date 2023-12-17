@@ -8,11 +8,11 @@ import playIcon from '../../public/playIcon.png'
 import Link from 'next/link'
 export default function planetsPage() {
   return (
-    <main className='h-[1800px]'>
+    <main className='h-[1800px] max-lg:h-[2200px] max-md:h-[3700px]'>
       <Image src={mainImage} alt='' className='absolute left-0'></Image>
       <Header></Header>
       <h1 className='text-white uppercase text-[56px] font-bold absolute left-[140px] top-[180px] max-lg:text-[34px] max-lg:left-[35px]'>planets discovery</h1>
-      <p className='absolute text-white opacity-[67%] w-fit  max-lg:top-[240px] max-lg:text-[11.5px] font-thin max-lg:left-[40px] left-[144px] top-[287px] text-[20px] leading-[33px] max-lg:leading-[19px]'>
+      <p className='absolute text-white opacity-[67%] w-fit  max-lg:top-[240px] max-lg:text-[11.5px] font-thin max-lg:left-[40px] left-[144px] top-[287px] max-md:top-[300px] text-[20px] leading-[33px] max-lg:leading-[19px]'>
         On this page, well discover some of<br></br>
         our hard work
         About the field<br></br>
@@ -21,7 +21,7 @@ export default function planetsPage() {
       <section className='relative w-[100%] top-[327px] h-fit'>
       <h1 className='font-[500] text-white absolute max-lg:text-center left-[50%] uppercase translate-x-[-50%] text-[45px] max-lg:text-[30px] max-lg:top-[-90px] max-lg:font-normal top-[15px]'>copernican system</h1>
       <Link href='/planets/solar'>
-      <Image src={playIcon} alt='' className='absolute right-[340px] top-[23px]'></Image>
+      <Image src={playIcon} alt='' className='absolute right-[340px] top-[23px] max-lg:hidden'></Image>
       </Link>
       <div className='relative flex flex-wrap justify-center max-w-fit top-[150px] max-h-fit h-[200px]'>
       {

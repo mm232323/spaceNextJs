@@ -45,7 +45,8 @@ export default function PlanetsScript() {
             details6 = document.getElementById("6details")
             details7 = document.getElementById("7details")
             details8 = document.getElementById("8details")
-            details6.style.marginRight = '50px'
+            details6.style.transform = 'translateX(-17%)'
+            details2.style.transform = 'translateX(5%)'
             images = [image1,image2,image3,image4,image5,image6,image7,image8]
             details = [details1,details2,details3,details4,details5,details6,details7,details8]
             for (let i = 0;i<images.length;i++) {
