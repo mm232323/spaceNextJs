@@ -20,7 +20,7 @@ export default function aboutPage() {
   return (
     <main className='h-[2800px]'>
       <Image src={mainImage} alt='' className='absolute top-0 max-lg:hidden'></Image>
-      <Image src={mainPImage} alt='' className='absolute top-0 hidden max-lg:block'></Image>
+      <Image src={mainPImage} alt='' className='absolute top-0 hidden max-lg:block w-[100%]'></Image>
       <Header></Header>
       <h1 className='font-bold text-[65px] max-lg: absolute text-white left-[140px] max-lg:left-[40px] max-lg:text-[40px] max-md:text-[50px] top-[180px]'>About us</h1>
       <p className='absolute text-white font-[400] opacity-[67%] max-lg:font-normal max-lg:top-[240px] max-lg:left-[40px] left-[144px] top-[287px] text-[20px] leading-[33px]'>
